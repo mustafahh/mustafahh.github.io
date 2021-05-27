@@ -1,12 +1,57 @@
-.bg-img
-{
-    background-image: url("home.jpg");
-    min-height: 700px;
+.body {
+    min-height: 100%;
+    min-width: 100%;
+    /* background-color: lightblue; */
+    background-image: url("background-1.jpg");
+    /* background-repeat: no-repeat; */
+    
 }
-.navbar-custom
-{
-    /* background-color: transparent; */
-    font-weight: 600;    
+
+.heading {
+    font-family:monospace;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 5px;
+    margin-top: 150px;
+}
+
+.sub-heading {
+    font-family:sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.form {
+    color: black;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.form-input {
+    padding: 5px;
+}
+
+.form-input-box {
+    margin: 10px;
+    padding: 5px;
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+}
+
+
+.btn {
+    padding: 7px;
+    margin: 7px;
+    color: white;
+    font-size: 1.1rem;
+    background-color: #037BFF;
+    border-radius: 10px;
+
 }
 
 nav ul li a
@@ -31,20 +76,19 @@ nav ul
 
 .home-content
 {
-    color: white;
-    padding-top: 15%;
+    color: black;
+    padding: 3%;
+    border: solid black 2px;
 }
 .home-content h2
 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2.4rem;
-    font-weight: bold;
 }
 .home-content h3
 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 1.5rem;
 }
 .projects-content
 {
