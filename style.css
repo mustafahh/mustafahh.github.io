@@ -125,3 +125,11 @@ nav ul
 {
     border: 2px solid grey;
 }
+div.welcome {
+  height: 20%;
+  text-align: center;
+}
+div.welcome img {
+  position: relative;
+  width: 150;
+}
